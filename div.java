@@ -7,7 +7,7 @@ class Division
 		System.out.println("Enter 2 numbers:");
 		int a = sc.nextInt();
 		int b = sc.nextInt();
-		float ans = a/b;
+		float ans = (float)a/b;
 		System.out.println("Division of 2 number is:"+ans); 
 	}
 }
