@@ -7,9 +7,10 @@ class Do_WhileDemo
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a number:");
 		int n = sc.nextInt();
+		int sum;
 		do
 		{
-			int sum = 0;
+			sum = 0;
 			while(n!=0)
 			{
 				int r = n%10;
@@ -17,7 +18,7 @@ class Do_WhileDemo
 				n = n/10;
 			}
 			n = sum;
-		}while(sum>9):
+		}while(sum>9);
 		System.out.println(sum);
 	}
 }
