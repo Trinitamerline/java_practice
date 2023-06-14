@@ -11,7 +11,7 @@ class Prime
 			if(n%i == 0)
 			{
 				boolean flag = true;
-				for(int j=2;j<i/2;i++)
+				for(int j=2;j<=i/2;i++)
 				{
 					if(j%i == 0)
 					{
